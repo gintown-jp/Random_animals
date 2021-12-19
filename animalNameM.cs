@@ -43,7 +43,6 @@ public class animalNameM : MonoBehaviour
 
         //結合
         animalName = $"{left}{right}";
-        Debug.Log(animalName);
 
         //表示
         this.GetComponent<Text>().text = animalName;
